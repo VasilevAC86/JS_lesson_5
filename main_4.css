@@ -1,0 +1,40 @@
+.conteiner{
+    margin: 0 auto;
+    display: flex;
+}
+.svetofor{
+    border: 2px solid black;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.color{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #999;
+}
+.btn{
+    width: 190px;
+    height: 190px;
+    margin: 30px;
+    background-color: #999;
+    border-radius: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.active.color-red{ /*два класса*/
+    background-color: crimson;
+}
+.active.color-yellow{
+    background-color: darkorange;
+}
+.active.color-green{
+    background-color: forestgreen;
+}

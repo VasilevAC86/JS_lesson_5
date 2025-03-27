@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    background-image: url('./src/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+#ball{
+    width: 100px;
+    height: 100px;
+    background-image: url('./src/ball.png');
+    background-size: cover;
+    position: absolute;
+    top: calc(50% - 50px);
+    left: calc(50% - 50px);
+    /*transition: 1s; для плавного перемещения мяча*/
+}

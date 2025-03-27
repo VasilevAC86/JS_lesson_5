@@ -1,0 +1,10 @@
+.dropdown{
+    padding: 5px;
+    background-color: blueviolet;
+    color: white;
+    position: absolute; /*позиционирование относительно радителя*/ 
+}
+.conteiner{
+    margin: 40px;
+    position: relative; /*чтобы дочерний эл. позиционировался относительно радителя*/
+}
